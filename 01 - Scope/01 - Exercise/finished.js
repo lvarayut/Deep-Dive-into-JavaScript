@@ -9,7 +9,7 @@ function marvel() {
 marvel();
 console.log('Outside function hero name', heroName);
 
-// Method II: Use a different variable name
+// Method II: Use different variable names
 var heroName = 'Thor';
 function marvel() {
   var innerHeroName = heroName;

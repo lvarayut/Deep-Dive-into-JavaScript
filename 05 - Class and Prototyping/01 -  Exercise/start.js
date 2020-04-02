@@ -1,4 +1,4 @@
-// 1. Correct the code snippet to use "class" 
+// 1. Covert the code snippet to use "class"
 function Person(name, age) {
   this.name = name;
   this.age = age;

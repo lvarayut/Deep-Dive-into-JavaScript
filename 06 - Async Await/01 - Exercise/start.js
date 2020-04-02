@@ -1,16 +1,15 @@
-// 1. Go to https://unsplash.com/developers and register
-// 2. Create an app in the website to obtain a key
-// 3. Fetch images by calling https://api.unsplash.com/photos/?client_id=${KEY}&page=${page} where the KEY and page are your key and page number respectively
+// 1. Convert the code snippet to use async/await 
+// Bonus: Try to write  the code snippet using Promise
 
-const KEY = 'YOUR_KEY';
-
-let page = 1;
-
-async function getImages(page) {
-  const result = await fetch(
-    `https://api.unsplash.com/photos/?client_id=${KEY}&page=${page}`
-  );
-
-  return await result.json();
+function simulateAsyncAPI(text, timeout, callback) {
+  setTimeout(() => {
+    console.log(text);
+    if (callback) callback();
+  }, timeout);
 }
 
+simulateAsyncAPI('A', 1000, () => {
+  simulateAsyncAPI('B', 500, () => {
+    simulateAsyncAPI('C', 100);
+  });
+});

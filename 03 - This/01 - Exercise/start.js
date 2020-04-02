@@ -1,4 +1,4 @@
-// 1. How would be the value of "this" defined in the attack and move functions?
+// 1. What would be the value of "this" defined in the attack and move functions?
 // 2. Guess the result of the code snippet
 // 3. Correct the code snippet to print out "Ironman is attacking" and "Ironman is moving" respectively
 const ironMan = {
