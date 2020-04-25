@@ -39,6 +39,6 @@ simulateAsyncAPI('A', 1000)
   .then(() => {
     return simulateAsyncAPI('C', 100);
   })
-  .catch(error => {
+  .catch((error) => {
     console.error(error);
   });

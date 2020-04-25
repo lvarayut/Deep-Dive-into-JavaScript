@@ -1,4 +1,4 @@
-// Method I: Use the bind method 
+// Method I: Use the bind method
 const ironMan = {
   name: 'Ironman',
   attack() {

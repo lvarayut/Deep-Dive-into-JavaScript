@@ -2,13 +2,13 @@
 function createHero() {
   var getHeroName = function getHeroName() {
     console.log('Spiderman');
-  }
+  };
 
   getHeroName();
 
   var getHeroName = function getHeroName() {
     console.log('Antman');
-  }
+  };
 
   getHeroName();
 }

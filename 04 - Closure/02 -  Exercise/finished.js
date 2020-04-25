@@ -1,7 +1,7 @@
 function createAdd(a) {
-  return function(b) {
+  return function (b) {
     return a + b;
-  }
+  };
 }
 
 const addFive = createAdd(5);

@@ -4,11 +4,11 @@
 
 hero = 'Ironman';
 
-const updateHero = function() {
+const updateHero = function () {
   console.log(`Hero before updating: ${hero}`);
 
   var hero = 'Thor';
   console.log(`Hero after updating: ${hero}`);
-}
+};
 
 updateHero();

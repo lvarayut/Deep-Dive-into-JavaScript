@@ -1,10 +1,10 @@
 // 1. Refactor the code snippet to create stateful functions using the closure concept
 
-function addFive(a)  {
+function addFive(a) {
   return a + 5;
 }
 
-function addTen(a)  {
+function addTen(a) {
   return a + 10;
 }
 

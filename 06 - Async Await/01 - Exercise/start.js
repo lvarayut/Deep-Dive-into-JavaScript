@@ -1,5 +1,5 @@
-// 1. Convert the code snippet to use async/await 
-// Bonus: Try to write  the code snippet using Promise
+// 1. Convert the code snippet to use async/await
+// Bonus: Rewrite the code snippet using Promise
 
 function simulateAsyncAPI(text, timeout, callback) {
   setTimeout(() => {

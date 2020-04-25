@@ -16,7 +16,7 @@ function marvel() {
   const heroes = ['Thor', 'Antman', 'Spiderman', 'Ironman'];
 
   for (var i = 0; i < heroes.length; i++) {
-    (i => {
+    ((i) => {
       setTimeout(() => {
         console.log(heroes[i]);
       }, 1000 * (i + 1));

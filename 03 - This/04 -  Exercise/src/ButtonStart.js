@@ -1,5 +1,5 @@
-// 1. What would be the result after clicking on the button?
-// 2. Fix the code snippet to print out "My button name is Click me"
+// 1. What would happen after clicking the button?
+// 2. Fix the code snippet to print out "My button name is Click me" after clicking the button
 import React, { Component } from 'react';
 
 class Button extends Component {
@@ -12,9 +12,7 @@ class Button extends Component {
   }
 
   render() {
-    return (
-    <button onClick={this.log}>{this.props.name}</button>
-    );
+    return <button onClick={this.log}>{this.props.name}</button>;
   }
 }
 export default Button;

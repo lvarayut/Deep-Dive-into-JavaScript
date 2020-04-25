@@ -1,5 +1,5 @@
 // Simulating a third party library, which we can't control
-const heroName = 'IronMan';
+const heroName = 'Ironman';
 
 function printHeroName(name = heroName) {
   console.log(`My hero name is ${name}`);
